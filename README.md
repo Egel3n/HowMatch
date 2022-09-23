@@ -1,3 +1,3 @@
 # HowMatch
 
-A page which helps you to find your true love with using a little math. 
+A page which helps you to find your love of your life with using a little math. 
