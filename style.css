@@ -1,0 +1,104 @@
+#title-section {
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+#input-section {
+    margin-bottom: 5%;
+}
+
+.navbar-brand {
+    color: white;
+    font-family: 'Reem Kufi Ink', sans-serif;
+    ;
+}
+
+.navbar {
+    background-color: #EE6983;
+    margin-bottom: 3%;
+}
+
+.col {
+    width: 30%;
+}
+
+h1 {
+    margin-bottom: 2%;
+}
+
+body {
+    background-color: #fff;
+    color: #f8a5a5;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.row {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+#heart {
+    font-size: 250px;
+    color: #EE6983
+}
+
+#heart:hover {
+    opacity: 0.8;
+}
+
+.footer-div {
+    background-color: #EE6983;
+    padding: 4.4% 15%;
+    text-align: center;
+
+}
+
+a {
+    color: white;
+    margin: 0 5px;
+}
+
+.container {
+    display: flex;
+    width: 420px;
+    padding: 50px 0;
+    border-radius: 8px;
+    background: #fff;
+    row-gap: 30px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.circular-progress {
+    position: relative;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    background: conic-gradient(#EE6983 3.6deg, #ededed 0deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circular-progress::before {
+    content: "";
+    position: absolute;
+    height: 210px;
+    width: 210px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.progress-value {
+    position: relative;
+    font-size: 40px;
+    font-weight: 600;
+    color: #EE6983;
+}
+
+.text {
+    font-size: 30px;
+    font-weight: 500;
+    color: #f8a5a5;
+}
