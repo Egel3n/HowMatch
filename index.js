@@ -154,8 +154,6 @@ document.querySelector("#heart").addEventListener("click", function () {
 
 	let diffrences = Math.abs(points1 - points2)
 
-	alert(diffrences);
-
 	let result = loveAlgorithm(diffrences)
 
 	document.querySelector("#heart").remove()
