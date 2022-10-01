@@ -2,7 +2,12 @@ function letterpoints(word) {
 	let points = 0;
 
 	for (let i of word) {
-		switch (i.toUpperCase()) {
+		if(i==="i"){
+			}
+		else{
+			i= i.toUpperCase();
+			}
+		switch (i) {
 			case "A":
 				points += 1
 				break;
@@ -41,6 +46,9 @@ function letterpoints(word) {
 			case "İ":
 				points += 12
 				break;
+			case "i":
+				points += 12
+				break;	
 			case "J":
 				points += 13
 				break;
